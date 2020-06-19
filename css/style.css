@@ -1,34 +1,32 @@
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-weight: 400;
-	font-style: normal;
+  font-style: normal;
 
-	src: url('..fonts/SourceSansPro-Regular.eot');
-	src: local('0'), url('..fonts/SourceSansPro-Regular.woff') format('woff'),
-       url('..fonts/SourceSansPro-Regular.ttf') format('truetype'),
-       url('..fonts/SourceSansPro-Regular.svg') format('svg');
+  src: url("..fonts/SourceSansPro-Regular.eot");
+  src: local("0"), url("..fonts/SourceSansPro-Regular.woff") format("woff"),
+    url("..fonts/SourceSansPro-Regular.ttf") format("truetype"), url("..fonts/SourceSansPro-Regular.svg") format("svg");
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
-	font-weight: 600;
-	font-style: normal;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-style: normal;
 
-	src: url('../fonts/SourceSansPro-Semibold.eot');
-	src: local('0'), url('../fonts/SourceSansPro-Semibold.woff') format('woff'),
-       url('../fonts/SourceSansPro-Semibold.ttf') format('truetype'),
-       url('../fonts/SourceSansPro-Semibold.svg') format('svg');
+  src: url("../fonts/SourceSansPro-Semibold.eot");
+  src: local("0"), url("../fonts/SourceSansPro-Semibold.woff") format("woff"),
+    url("../fonts/SourceSansPro-Semibold.ttf") format("truetype"),
+    url("../fonts/SourceSansPro-Semibold.svg") format("svg");
 }
 
 @font-face {
-	font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-weight: 700;
-	font-style: normal;
+  font-style: normal;
 
-	src: url('../fonts/SourceSansPro-Bold.eot');
-	src: local('0'), url('../fonts/SourceSansPro-Bold.woff') format('woff'),
-       url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
-       url('../fonts/SourceSansPro-Bold.svg') format('svg');
+  src: url("../fonts/SourceSansPro-Bold.eot");
+  src: local("0"), url("../fonts/SourceSansPro-Bold.woff") format("woff"),
+    url("../fonts/SourceSansPro-Bold.ttf") format("truetype"), url("../fonts/SourceSansPro-Bold.svg") format("svg");
 }
 
 body {
@@ -81,6 +79,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/header/header-bg.png");
   background-repeat: no-repeat;
   background-position: 0 0;
+  background-size: cover;
 }
 
 .wrapper {
@@ -96,7 +95,6 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 
   padding-top: 30px;
-
 }
 
 .header-logo {
@@ -106,12 +104,10 @@ input[type="radio"].visually-hidden {
 
   width: 164px;
 
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .header-logo__img {
-
 }
 
 .header-logo__text {
@@ -136,21 +132,19 @@ input[type="radio"].visually-hidden {
   padding: 0;
 
   list-style-type: none;
-
 }
 
 .nav-menu__item {
-
 }
 
 .nav-menu__link {
-text-transform: uppercase;
+  text-transform: uppercase;
 
-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 
-font-family: "Source Sans Pro";
-font-size: 15px;
-line-height: 24px;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .nav-menu__link--current {
@@ -168,8 +162,6 @@ line-height: 24px;
   justify-content: space-between;
 
   width: 228px;
-
-
 }
 
 .login-list {
@@ -180,24 +172,21 @@ line-height: 24px;
 }
 
 .login-list__item {
-
 }
 
 .login-list__link {
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
   line-height: 24px;
-
 }
 
 .login-list__link:hover {
   color: rgba(255, 255, 255, 0.8);
-
 }
 
 .signup-list {
@@ -208,7 +197,6 @@ line-height: 24px;
 }
 
 .signup-list__item {
-
 }
 
 .signup-btn {
@@ -220,9 +208,9 @@ line-height: 24px;
   text-align: center;
   text-transform: uppercase;
 
-  color: #250F8A;
+  color: #250f8a;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 
   font-family: "Source Sans Pro";
   font-size: 15px;
@@ -235,7 +223,6 @@ line-height: 24px;
 
   color: rgba(37, 15, 138, 0.5);
   background-color: rgba(255, 255, 255, 0.8);
-
 }
 
 .header-slider {
@@ -255,7 +242,7 @@ line-height: 24px;
   text-align: center;
 }
 
-.header-dots button{
+.header-dots button {
   width: 7px;
   height: 7px;
   margin: 0;
@@ -268,7 +255,7 @@ line-height: 24px;
   border: none;
   border-radius: 3.5px;
   outline: none;
-  background: #FFFFFF;
+  background: #ffffff;
 
   font-size: 0;
 }
@@ -277,11 +264,10 @@ line-height: 24px;
   margin-bottom: 0;
 }
 
-.header-dots .slick-active button{
+.header-dots .slick-active button {
   width: 15px;
 
   opacity: 1;
-
 }
 
 .header-content {
@@ -293,18 +279,15 @@ line-height: 24px;
   padding-top: 140px;
   padding-bottom: 20px;
 
-  color: #FFFFFF;
+  color: #ffffff;
   background-image: url("../img/header/header-img.png");
   background-repeat: no-repeat;
   background-position: 570px 100%;
-
 }
 
 .header .slick-initialized .slick-slide {
   display: flex;
 }
-
-
 
 .header-content__title {
   width: 506px;
@@ -318,7 +301,6 @@ line-height: 24px;
   font-size: 45px;
   font-weight: 700;
   line-height: 60px;
-
 }
 
 .header-content__subtitle {
@@ -330,11 +312,9 @@ line-height: 24px;
   font-size: 24px;
   font-weight: 400;
   line-height: 55px;
-
 }
 
 .header-content__link {
-
 }
 
 .request-btn {
@@ -347,15 +327,14 @@ line-height: 24px;
   text-align: center;
   text-transform: uppercase;
 
-  color: #250F8A;
+  color: #250f8a;
   border-radius: 25px;
-  background-color: #FFCA00;
+  background-color: #ffca00;
 
   font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
   line-height: 24px;
-
 }
 
 .features {
@@ -431,7 +410,7 @@ line-height: 24px;
   padding-top: 65px;
   padding-bottom: 55px;
 
-  background-color: #F4F9FD;
+  background-color: #f4f9fd;
 }
 
 .advantages__list {
@@ -451,23 +430,23 @@ line-height: 24px;
 
   min-height: 541px;
 
-  background-image: url('../img/advantages/advanatges__img-1.png');
+  background-image: url("../img/advantages/advanatges__img-1.png");
   background-repeat: no-repeat;
   background-position: center right;
 }
 
 .advantages__item:nth-child(2) {
-  background-image: url('../img/advantages/advanatges__img-2.png');
+  background-image: url("../img/advantages/advanatges__img-2.png");
   background-position: center left;
 }
 
 .advantages__item:nth-child(2) .advantages__subtitle,
-.advantages__item:nth-child(2) .advantages__text{
+.advantages__item:nth-child(2) .advantages__text {
   margin-left: auto;
 }
 
 .advantages__item:last-child {
-  background-image: url('../img/advantages/advanatges__img-3.png');
+  background-image: url("../img/advantages/advanatges__img-3.png");
 }
 
 .advantages__subtitle {
@@ -480,7 +459,6 @@ line-height: 24px;
 
   font-size: 35px;
   line-height: 45px;
-
 }
 
 .advantages__text {
@@ -494,7 +472,6 @@ line-height: 24px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-
 }
 
 .advantages__text:last-child {
@@ -505,8 +482,8 @@ line-height: 24px;
   padding-top: 40px;
   padding-bottom: 80px;
 
-  color: #FFFFFF;
-  background-image: url('../img/recommendations/recommendations__bg.jpg');
+  color: #ffffff;
+  background-image: url("../img/recommendations/recommendations__bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -565,21 +542,21 @@ line-height: 24px;
   width: 50px;
   height: 50px;
 
-  content: '';
+  content: "";
 
   border-radius: 50%;
-  background-image: url('../img/recommendations/recommendations__img-1.jpg');
+  background-image: url("../img/recommendations/recommendations__img-1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.recommendations__item:nth-child(2) .recommendations__user-name::before  {
-  background-image: url('../img/recommendations/recommendations__img-2.jpg');
+.recommendations__item:nth-child(2) .recommendations__user-name::before {
+  background-image: url("../img/recommendations/recommendations__img-2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
-.recommendations__item:last-child .recommendations__user-name::before  {
-  background-image: url('../img/recommendations/recommendations__img-3.jpg');
+.recommendations__item:last-child .recommendations__user-name::before {
+  background-image: url("../img/recommendations/recommendations__img-3.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -616,7 +593,7 @@ line-height: 24px;
   line-height: 24px;
 }
 
-.footer  .wrapper {
+.footer .wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -638,46 +615,26 @@ line-height: 24px;
   display: inline-block;
 
   color: #272727;
-
 }
 .footer-nav__link:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 .footer__copyright {
   display: inline-block;
-
 }
 
 .popup-login {
+  display: none;
+
   width: 500px;
   height: 250px;
-  margin: 0 auto; 
-  background-color: #F4F9FD;
+  margin: 0 auto;
   padding: 50px 150px;
 
-  }
-
-.popup-login__form {
-
-}
-
-.login-form {
-
+  background-color: #f4f9fd;
 }
 
 .popup-login__wrapper {
   display: flex;
   flex-direction: column;
-}
-
-.login-form__inner {
-
-}
-
-.login-form__checkbox-wrapper {
-
-}
-
-.login-btn {
-
 }
